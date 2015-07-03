@@ -1,6 +1,15 @@
-% Code7: Graph Paper Programing
-% Gary Dalton
-% July 3, 2015
+---
+title: Code7
+subtitle: Graph Paper Programming
+author: Gary Dalton
+date: July 3, 2015
+theme: beige
+github:
+    user: gary-dalton
+    repo: code7
+    branch: "gh-pages"
+
+---
 
 #
 
