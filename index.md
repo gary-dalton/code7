@@ -1,6 +1,17 @@
-% title: GGIS on Github
-% author: Gary Dalton
-% updated: July 3, 2015
+---
+title: Code7
+subtitle: Extending code.org
+author: Gary Dalton
+github:
+  user: gary-dalton
+  repo: code7
+  branch: "gh-pages"
+framework: minimal
+mode: selfcontained
+hitheme: solarized_dark
+background: images/fabric_of_squares_gray.png
+---
+
 
 # What's here?
 
