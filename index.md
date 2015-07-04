@@ -17,4 +17,5 @@ background: images/fabric_of_squares_gray.png
 
 Slideshows and other resources that extend the [code.org](http://code.org) 20 hour courses.
 
-- [Stage 5](code7_stage5.html)
+- [Stage 4](code7_stage5.html)
+- [Stage 6](code7_stage6.html)
