@@ -1,8 +1,8 @@
 ---
-title: Code7 - Stage 6
-subtitle: Algorithms
+title: Code7 - Stage 8
+subtitle: Functions
 author: Gary Dalton
-date: 6 July 2015
+date: 8 July 2015
 theme: beige
 transition: concave
 github:
@@ -12,7 +12,7 @@ github:
 
 ---
 
-# Algorithms
+# Functions
 
 ##
 
@@ -24,7 +24,7 @@ Exploring how many ways paper can be folded into a rectangle shows how some meth
 
 #
 
-<iframe data-autoplay width="800" height="600" allowfullscreen src="http://www.youtube.com/embed/gW_aPXjgBTc"></iframe>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="http://www.youtube.com/embed/NAViNTHS3LU"></iframe>
 
 # Objective
 
@@ -129,8 +129,6 @@ Tangrams are a Chinese geometric puzzle consisting of a square cut into seven pi
 ## Can you find a third way to do it?
 
 ## OK, let's keep track of how to fold and how many folds it takes
-
-###
 
 - How many ways can you fold the paper?
 - How many folds does it take to get to that result?
