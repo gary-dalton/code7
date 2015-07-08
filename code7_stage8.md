@@ -9,6 +9,7 @@ github:
     user: gary-dalton
     repo: code7
     branch: "gh-pages"
+pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn-revealjs.html code7_stage8.md -o code7_stage8.html
 
 ---
 
@@ -18,7 +19,7 @@ Repetitive tasks can be stored in a small group that can be “called” several
 
 #
 
-<iframe data-autoplay width="800" height="600" allowfullscreen src="http://www.youtube.com/embed/NAViNTHS3LU"></iframe>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="https://www.youtube.com/embed/NAViNTHS3LU"></iframe>
 
 # Objective
 

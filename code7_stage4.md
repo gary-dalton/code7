@@ -8,12 +8,13 @@ github:
     user: gary-dalton
     repo: code7
     branch: "gh-pages"
+pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn-revealjs.html code7_stage4.md -o code7_stage4.html
 
 ---
 
 #
 
-<iframe data-autoplay width="800" height="600" allowfullscreen src="http://www.youtube.com/embed/4e3fi_ls8CA"></iframe>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="https://www.youtube.com/embed/4e3fi_ls8CA"></iframe>
 
 # Objective
 

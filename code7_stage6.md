@@ -9,6 +9,7 @@ github:
     user: gary-dalton
     repo: code7
     branch: "gh-pages"
+pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn-revealjs.html code7_stage6.md -o code7_stage6.html
 
 ---
 
@@ -24,7 +25,7 @@ Exploring how many ways paper can be folded into a rectangle shows how some meth
 
 #
 
-<iframe data-autoplay width="800" height="600" allowfullscreen src="http://www.youtube.com/embed/NAViNTHS3LU"></iframe>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="https://www.youtube.com/embed/NAViNTHS3LU"></iframe>
 
 # Objective
 
