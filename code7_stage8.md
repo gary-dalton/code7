@@ -9,7 +9,7 @@ github:
     user: gary-dalton
     repo: code7
     branch: "gh-pages"
-pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn-revealjs.html code7_stage8.md -o code7_stage8.html
+pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn_revealjs.html code7_stage8.md -o code7_stage8.html
 
 ---
 

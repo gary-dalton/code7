@@ -1,6 +1,6 @@
 ---
-title: Code7 - Stage 8
-subtitle: Functions
+title: Code7 - Stage 6
+subtitle: Algorithms
 author: Gary Dalton
 date: 8 July 2015
 theme: beige
@@ -9,11 +9,11 @@ github:
     user: gary-dalton
     repo: code7
     branch: "gh-pages"
-pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn-revealjs.html code7_stage6.md -o code7_stage6.html
+pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn_revealjs.html code7_stage6.md -o code7_stage6.html
 
 ---
 
-# Functions
+# Algorithms
 
 ##
 
@@ -25,7 +25,7 @@ Exploring how many ways paper can be folded into a rectangle shows how some meth
 
 #
 
-<iframe data-autoplay width="800" height="600" allowfullscreen src="https://www.youtube.com/embed/NAViNTHS3LU"></iframe>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="https://www.youtube.com/embed/gW_aPXjgBTc"></iframe>
 
 # Objective
 
