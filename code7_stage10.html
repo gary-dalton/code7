@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Code7 - Stage 10</title>
+    <meta name="description" content="Code7 - Stage 10">
+
+          <meta name="author" content="Gary Dalton" />
+    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/beige.min.css" id="theme">
+    
+    <!-- For syntax highlighting -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/css/zenburn.min.css">
+    
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/print/' +
+        ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
+        '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+    </head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section>
+<h1>Code7 - Stage 10</h1>
+<h2>Conditionals</h2>
+<h3>Gary Dalton</h3>
+<p>
+<h4>16 July 2015</h4>
+</p>
+
+<a href="https://github.com/gary-dalton/code7/tree/gh-pages">
+Fork on GitHub
+ </a>
+</section>
+
+
+<section id="conditionals" class="level1">
+<h1>Conditionals</h1>
+<p>Conditionals are the way computers make decisions. Conditionals are used in if-statements and loops.</p>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="https://www.youtube.com/embed/yr6g0AWE7yw">
+</iframe>
+</section>
+<section id="objective" class="level1">
+<h1>Objective</h1>
+<ul>
+<li>Gain experience determining the outcome (true or false) of conditionals</li>
+<li>Evaluate logical statements to determine which branch of a program to follow</li>
+<li>Introduced to javascript code</li>
+</ul>
+</section>
+<section id="materials" class="level1">
+<h1>Materials</h1>
+<ul>
+<li>Blank paper for keeping score</li>
+<li>One deck of playing cards</li>
+</ul>
+</section>
+<section id="vocabulary" class="level1">
+<h1>Vocabulary</h1>
+<li class="fragment">
+<strong>Conditional</strong>: A statement that is either true or false depending on the situation
+<li class="fragment">
+<strong>If Statement</strong>: A line that determines whether or not you run a certain chunk of code
+<li class="fragment">
+<strong>Else</strong>: Another way of saying &quot;Otherwise&quot;
+<li class="fragment">
+<strong>Function</strong>: A piece of code that can be called over and over
+<li class="fragment">
+<strong>Increment</strong>: To add a certain amount (often 1), once or many times
+<li class="fragment">
+<strong>Decrement</strong>: To subtract a certain amount (often 1), once or many times
+<li class="fragment">
+<p><strong>Nested Statements</strong>: A statement inside another statement</p>
+</section>
+<section id="review-and-extend" class="level1">
+<h1>Review and Extend</h1>
+<ul>
+<li>How is a while block different from an if block?</li>
+<li>Can you think of anything we do in real life that could be described with a while loop?</li>
+</ul>
+</section>
+<section id="simple-if" class="level1">
+<h1>Simple If</h1>
+<pre><code>If you all raise your hand,
+    I will clap.</code></pre>
+</section>
+<section id="if-with-else" class="level1">
+<h1>If with Else</h1>
+<pre><code>If you all raise your hand,
+    I will clap.
+Else,
+    I will touch my nose.</code></pre>
+</section>
+<section id="nested-if-else" class="level1">
+<h1>Nested If-Else</h1>
+<pre><code>If you all stand,
+    I will bark.
+    If you all clap,
+        I will stand on 1 foot.
+    Else,
+        I will stand on both feet
+Else,
+    I will whistle.</code></pre>
+</section>
+<section id="if-else-if-and-else" class="level1">
+<h1>If, Else if, and Else</h1>
+<pre><code>If you all touch your ear,
+    I will mew.
+Else if you all touch your nose,
+    I will moo.
+Else,
+    I will whistle.</code></pre>
+</section>
+<section id="conditionals-1" class="level1">
+<h1>Conditionals</h1>
+<p>We call these &quot;If Statements&quot; conditionals, because there is a condition placed on them. Something is either true, or it's not. If it's true, we do the instruction inside the &quot;If Statement&quot;. Otherwise, we do the instruction inside of the &quot;Else Statement&quot;.</p>
+<section id="questions" class="level2">
+<h2>Questions?</h2>
+</section>
+</section>
+<section id="activity" class="level1">
+<h1>Activity</h1>
+<section id="we-will-use-a-deck-of-cards-and-conditional-statements-to-score-points." class="level2">
+<h2>We will use a deck of cards and conditional statements to score points.</h2>
+</section>
+<section id="this-is-the-conditional-code-in-javascript." class="level2">
+<h2>This is the conditional code in javascript.</h2>
+<pre><code>if (card.color == black){
+    team.points += 1;
+}
+else{
+    team.points -=1;
+}</code></pre>
+</section>
+<section id="section-1" class="level2">
+<h2></h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Javascript</th>
+<th style="text-align: left;">Pseudocode</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">if (card.color == black){</td>
+<td style="text-align: left;">if card’s color is black</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">team.points += 1;</td>
+<td style="text-align: left;">then team’s points increase by 1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">}</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">else{</td>
+<td style="text-align: left;">otherwise</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">team.points -=1;</td>
+<td style="text-align: left;">team’s points decrease by 1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">}</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="section-2" class="level2">
+<h2></h2>
+<ul>
+<li>Yes, the parentheses, brackets, and semicolons are required</li>
+<li>'==' means check if it equals while '=' sets it equal</li>
+<li>'+=' means increment</li>
+<li>'-=' means decrement</li>
+</ul>
+</section>
+<section id="ok-lets-score-points" class="level2">
+<h2>Ok, let's score points</h2>
+<pre><code>if (card.color == black){
+    team.points += 1;
+}
+else{
+    team.points -=1;
+}</code></pre>
+</section>
+<section id="try-with-different-algorithm" class="level2">
+<h2>Try with different algorithm</h2>
+<pre><code>while (card.value &lt; 5){
+    team.points ++;
+    if (card.value == 3){
+        team.points += 2;
+        if(card.suit == &quot;clubs&quot;){
+            team.points --;
+        }
+    }
+}</code></pre>
+</section>
+<section id="write-a-simple-card-scoring-conditional-algorithm-in-javascript" class="level2">
+<h2>Write a simple card-scoring conditional algorithm in javascript</h2>
+</section>
+</section>
+<section id="objectives" class="level1">
+<h1>Objectives</h1>
+<ul>
+<li>How do computers make decisions?</li>
+<li>On code.org, you can see the javascript of your code by clicking &quot;&lt;/&gt; Show Code&quot;</li>
+</ul>
+</section>
+<section id="vocabulary-1" class="level1">
+<h1>Vocabulary</h1>
+<ul>
+<li><strong>Conditional</strong>: A statement that is either true or false depending on the situation</li>
+<li><strong>If Statement</strong>: A line that determines whether or not you run a certain chunk of code</li>
+<li><strong>Else</strong>: Another way of saying &quot;Otherwise&quot;</li>
+<li><strong>Function</strong>: A piece of code that can be called over and over</li>
+<li><strong>Increment</strong>: To add a certain amount (often 1), once or many times</li>
+<li><strong>Decrement</strong>: To subtract a certain amount (often 1), once or many times</li>
+<li><strong>Nested Statements</strong>: A statement inside another statement</li>
+</ul>
+</section>
+<section id="mark-stage-10-as-complete-on-code.org" class="level1">
+<h1>Mark Stage 10 as complete on code.org</h1>
+</section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/head.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.min.js"></script>
+
+<script>
+  Reveal.initialize({
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  // let's set some configuration options from YAML
+    controls: true,
+    progress: false,
+    slideNumber: true,
+    history: false,
+    keyboard: true,
+    overview: true,
+    center: false,
+    touch: true,
+    loop: false,
+    rtl: false,
+    fragments: true,
+    embedded: false,
+    help: true,
+            autoSlide: 0,
+        autoSlideStoppable: true,
+    mouseWheel: false,
+    hideAddressBar: true,
+    previewLinks: false,
+    transitionSpeed: 'default',
+    backgroundTransition: 'none',
+    viewDistance: '3',
+
+            parallaxBackgroundImage: '',
+        parallaxBackgroundSize: '',
+        parallaxBackgroundHorizontal: '',
+        parallaxBackgroundVertical: '',
+    
+  // available themes are in /css/theme
+      theme: Reveal.getQueryHash().theme || 'black',
+  
+  // none/fade/slide/convex/concave/zoom
+      transition: Reveal.getQueryHash().transition || 'none',
+  
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+  });
+
+</script>
+
+</body>
+</html>
