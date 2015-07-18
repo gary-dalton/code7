@@ -2,7 +2,7 @@
 title: Code7 - Stage 8
 subtitle: Functions
 author: Gary Dalton
-date: 8 July 2015
+date: 18 July 2015
 theme: beige
 transition: concave
 github:
@@ -15,7 +15,7 @@ pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn_revea
 
 # Functions
 
-Repetitive tasks can be stored in a small group that can be “called” several times, instead of wasting space with lots of copies of the same instruction.
+Repetitive tasks can be stored in a small group that can be "called" several times, instead of wasting space with lots of copies of the same instruction.
 
 #
 
@@ -28,6 +28,7 @@ Repetitive tasks can be stored in a small group that can be “called” several
 
 # Materials
 
+- One jump ring
 - One foot of string, thread, or fishing line per person
 - 2-4 beads per person
 - 2-4 other accessories (buttons, hoops, spacers) per person
@@ -75,7 +76,8 @@ A placeholder for a value that can change
 
 In Stage 7, The Artist II, we drew repeating shapes using code blocks
 
-![](images/stage8blocks.jpg)![](images/stage8pattern.jpg)
+| ![](images/stage8blocks.jpg) | ![](images/stage8pattern.jpg) |
+| ------------------ | ------------------ |
 
 ##
 
@@ -86,17 +88,19 @@ In Stage 7, The Artist II, we drew repeating shapes using code blocks
 
 ## How did I make this?
 
-1. First, I put a bead on the string, then I tied a knot. I put another bead on a string, and tied another knot. Then, I put a spacer on the string and tied another knot.
-2. After that, I did it all again. I put a bead on the string, then I tied a knot. I put another bead on a string, and tied another knot. Then, I put a spacer on the string and tied another knot.
-3. Finally, I put on the special charm, and tied one last knot.
+1. I put the jump ring on the string and tied a double knot.
+1. I put a bead on the string and tied a knot.
+1. I put another bead on a string, and tied another knot.
+1. I put a spacer on the string and tied another knot.
+1. I repeated steps 2-4.
+1. Finally, I put on the special charm, and tied one last  double knot.
 
 ## With rhythm
 
->"Bead, knot, bead, knot, spacer, knot.
-
->Bead, knot, bead, knot, spacer, knot.
-
->Special charm, final knot."
+>"Jump ring, double knot.<br />
+>Bead, knot, bead, knot, spacer, knot.<br />
+>Bead, knot, bead, knot, spacer, knot.<br />
+>Special charm, double knot."
 
 ##
 
@@ -122,11 +126,10 @@ In Stage 7, The Artist II, we drew repeating shapes using code blocks
 
 Try to fill in the skills and program to make a working example of the algorithm.
 
->"Bead, knot, bead, knot, spacer, knot.
-
->Bead, knot, bead, knot, spacer, knot.
-
->Special charm, final knot."
+>"Jump ring, double knot.<br />
+>Bead, knot, bead, knot, spacer, knot.<br />
+>Bead, knot, bead, knot, spacer, knot.<br />
+>Special charm, double knot."
 
 ## Ok, let's make those suncatchers.
 
