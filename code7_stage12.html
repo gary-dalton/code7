@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Code7 - Stage 12</title>
+    <meta name="description" content="Code7 - Stage 12">
+
+          <meta name="author" content="Gary Dalton" />
+    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/beige.min.css" id="theme">
+    
+    <!-- For syntax highlighting -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/css/zenburn.min.css">
+    
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/print/' +
+        ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
+        '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+    </head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section>
+<h1>Code7 - Stage 12</h1>
+<h2>Song Writing</h2>
+<h3>Gary Dalton</h3>
+<p>
+<h4>13 August 2015</h4>
+</p>
+
+<a href="https://github.com/gary-dalton/code7/tree/gh-pages">
+Fork on GitHub
+ </a>
+</section>
+
+
+<section id="song-writing" class="level1">
+<h1>Song Writing</h1>
+<p>Reading lyrics is a pretty intuitive venture for most students. We’ll take an activity that’s already common knowledge and shift it into a solid education on defining and calling functions.</p>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="https://www.youtube.com/embed/hx0tBso08aA">
+</iframe>
+</section>
+<section id="objective" class="level1">
+<h1>Objective</h1>
+<ul>
+<li>Learn about defining functions</li>
+<li>Practice calling functions</li>
+<li>See the practicality of passing variables as parameters</li>
+</ul>
+</section>
+<section id="materials" class="level1">
+<h1>Materials</h1>
+<ul>
+<li>Paper and pencils for writing songs</li>
+<li>Lyrics of basic songs with choruses</li>
+</ul>
+</section>
+<section id="vocabulary" class="level1">
+<h1>Vocabulary</h1>
+<li class="fragment">
+<strong>Chorus</strong>: A piece of music that repeats often
+<li class="fragment">
+<strong>Function</strong>: A piece of code that can be called over and over
+<li class="fragment">
+<strong>Function Call</strong>: The piece of a program that sends the computer to a function
+<li class="fragment">
+<strong>Function Definition</strong>: The piece of a program that tells the computer what to do when the code calls a function
+<li class="fragment">
+<strong>Parameters</strong>: Extra information that you can give to a function to customize it
+<li class="fragment">
+<p><strong>Recursive</strong>: A definition that refers to the word it is trying to define.</p>
+</section>
+<section id="review-and-extend" class="level1">
+<h1>Review and Extend</h1>
+<ul>
+<li>What is a function?</li>
+<li>What does it mean to call a function?</li>
+<li>What is a counter block?</li>
+</ul>
+</section>
+<section id="for-loops" class="level1">
+<h1>For Loops</h1>
+<section id="section-1" class="level2">
+<h2></h2>
+<p><em>Counter blocks</em> are often called <em>for loops</em>. They’re called that because you do <em>something</em> FOR all values of the counter from the minimum to the maximum.</p>
+</section>
+<section id="section-2" class="level2">
+<h2></h2>
+<p>Let's say you have a counter block that keeps track of your age. From age 5 to age 10, you grow two inches a year. From age 11 to age 17, you grow an inch every two years. This requires two blocks. What is the minimum value, maximum value, and add-on amount for each block?</p>
+</section>
+</section>
+<section id="section-3" class="level1">
+<h1></h1>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="https://www.youtube.com/embed/hzus6W7BrIc?start=0&amp;end=76">
+</iframe>
+</section>
+<section id="song" class="level1">
+<h1>Song</h1>
+<section id="lets-sing-it" class="level2">
+<h2>Let's sing it</h2>
+<pre><code>CHORUS:
+Oh, dear! What can the matter be?
+Dear, dear! What can the matter be?
+Oh, dear! What can the matter be?
+Johnny’s so long at the fair.
+
+He promised to buy me a fairing to please me,
+And then for a kiss, oh, he vowed he would tease me,
+He promised to bring me a bunch of blue ribbons
+To tie up my bonnie brown hair.
+
+Chorus()
+
+He promised to buy me a pair of sleeve buttons,
+A pair of new garters, that cost him but two pence,
+He promised to bring me a bunch of blue ribbons
+That tie up my bonnie brown hair.
+
+Chorus()</code></pre>
+</section>
+<section id="section-4" class="level2">
+<h2></h2>
+<p>Why didn't anyone sing the word <strong>chorus</strong>?</p>
+</section>
+</section>
+<section id="changing-chorus" class="level1">
+<h1>Changing Chorus</h1>
+<section id="chorus" class="level2">
+<h2>Chorus</h2>
+<pre><code>CHORUS (sound):
+With a *sound sound* here
+And a *sound sound* there
+Here a *sound*, there a *sound*
+Everywhere a *sound sound*
+Old MacDonald had a farm
+E-I-E-I-O</code></pre>
+</section>
+<section id="lets-sing-it-1" class="level2">
+<h2>Let's sing it</h2>
+<pre><code>Old MACDONALD had a farm, E-I-E-I-O
+And on his farm he had a cow, E-I-E-I-O
+
+CHORUS (“Moo”)
+
+Old MACDONALD had a farm, E-I-E-I-O
+And on his farm he had a pig, E-I-E-I-O
+
+CHORUS(“Oink”)
+
+Old MACDONALD had a farm, E-I-E-I-O
+And on his farm he had a duck, E-I-E-I-O
+
+CHORUS(“Quack”)</code></pre>
+</section>
+<section id="passing-parameters" class="level2">
+<h2>Passing parameters</h2>
+<p>Notice when the chorus was defined, it included a sound in parentheses. Consider CHORUS() as a function definition. Anything in the parentheses is a parameter that is passed to the function.</p>
+</section>
+</section>
+<section id="multiple-parameters" class="level1">
+<h1>Multiple Parameters</h1>
+<section id="section-5" class="level2">
+<h2></h2>
+<p>More than 1 item may be passed to a function by separating the parameters by a comma. The next song will demonstrate this.</p>
+</section>
+<section id="sing-this-song" class="level2">
+<h2>Sing this song</h2>
+<pre><code>CHORUS (thing, place, did):
+‘Cause I stuck a *thing* in a hole in the *place*
+and it *did*, and *did*, and *did*.
+
+I’m going to be the most famous kid of all,
+because of the thing that I just did.
+CHORUS(“seed”, “ground”, “grew”)
+
+I’m going to be the most famous kid of all,
+because of the thing that I just did.
+CHORUS(“plug”, “boat”, “floats”)</code></pre>
+</section>
+</section>
+<section id="section-6" class="level1">
+<h1></h1>
+<section id="your-turn" class="level2">
+<h2>Your turn</h2>
+<p>Adjust the lyrics to the song <em>Farmer in the Dell</em> so that the chorus may be called with paramerters.</p>
+</section>
+<section id="farmer-in-the-dell" class="level2">
+<h2>Farmer in the Dell</h2>
+<pre><code>The farmer in the dell
+The farmer in the dell
+Heigh ho the derry-o
+The farmer in the dell
+
+The farmer takes a wife
+The farmer takes a wife
+Heigh ho the derry-o
+The farmer takes a wife
+The wife takes the child
+The wife takes the child
+Heigh ho the derry-o
+The wife takes the child
+The child takes the cow
+The child takes the cow
+Heigh ho the derry-o
+The child takes the cow
+
+The cow takes the pig
+The cow takes the pig
+Heigh ho the derry-o
+The cow takes the pig
+The pig takes the dog
+The pig takes the dog
+Heigh ho the derry-o
+The pig takes the dog
+
+The dog takes the cat
+The dog takes the cat
+Heigh ho the derry-o
+The dog takes the cat
+The cat takes a mouse
+The cat takes a mouse
+Heigh ho the derry-o
+The cat takes a mouse
+
+The mouse takes the cheese
+The mouse takes the cheese
+Heigh ho the derry-o
+The mouse takes the cheese
+The cheese stands alone
+The cheese stands alone
+Heigh ho the derry-o
+The cheese stands alone
+Heigh ho the derry-o
+The cheese stands alone</code></pre>
+</section>
+</section>
+<section id="recursion" class="level1">
+<h1>Recursion</h1>
+<section id="section-7" class="level2">
+<h2></h2>
+<p>Recursion is a concept that confuses some people but is often very useful. Let's demonstrate it using the <em>Song that Never Ends</em>.</p>
+</section>
+<section id="song-that-never-ends" class="level2">
+<h2>Song that Never Ends</h2>
+<pre><code>I know a song that gets on everyone&#39;s nerves,
+everyone&#39;s nerves, everyone&#39;s nerves,
+I know a song that gets on everyone&#39;s nerves,
+and this is how it goes.
+
+CHORUS:
+This is the song that doesn&#39;t ends
+It just goes on and on my friend
+Some people started singing it not knowing what it was,
+And they&#39;ll continue singing it forever just because
+Chorus()</code></pre>
+</section>
+</section>
+<section id="did-you-..." class="level1">
+<h1>Did you ...?</h1>
+<ul>
+<li>Learn about defining functions</li>
+<li>Practice calling functions</li>
+<li>See the practicality of passing variables as parameters</li>
+</ul>
+</section>
+<section id="vocabulary-1" class="level1">
+<h1>Vocabulary</h1>
+<ul>
+<li><strong>Chorus</strong>: A piece of music that repeats often</li>
+<li><strong>Function</strong>: A piece of code that can be called over and over</li>
+<li><strong>Function Call</strong>: The piece of a program that sends the computer to a function</li>
+<li><strong>Function Definition</strong>: The piece of a program that tells the computer what to do when the code calls a function</li>
+<li><strong>Parameters</strong>: Extra information that you can give to a function to customize it</li>
+<li><strong>Recursive</strong>: A definition that refers to the word it is trying to define.</li>
+</ul>
+</section>
+<section id="mark-stage-12-as-complete-on-code.org" class="level1">
+<h1>Mark Stage 12 as complete on code.org</h1>
+</section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/head.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.min.js"></script>
+
+<script>
+  Reveal.initialize({
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  // let's set some configuration options from YAML
+    controls: true,
+    progress: false,
+    slideNumber: true,
+    history: false,
+    keyboard: true,
+    overview: true,
+    center: false,
+    touch: true,
+    loop: false,
+    rtl: false,
+    fragments: true,
+    embedded: false,
+    help: true,
+            autoSlide: 0,
+        autoSlideStoppable: true,
+    mouseWheel: false,
+    hideAddressBar: true,
+    previewLinks: false,
+    transitionSpeed: 'default',
+    backgroundTransition: 'none',
+    viewDistance: '3',
+
+            parallaxBackgroundImage: '',
+        parallaxBackgroundSize: '',
+        parallaxBackgroundHorizontal: '',
+        parallaxBackgroundVertical: '',
+    
+  // available themes are in /css/theme
+      theme: Reveal.getQueryHash().theme || 'black',
+  
+  // none/fade/slide/convex/concave/zoom
+      transition: Reveal.getQueryHash().transition || 'none',
+  
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+  });
+
+</script>
+
+</body>
+</html>
